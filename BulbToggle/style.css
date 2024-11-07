@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+    margin: 0;
+}
+
+.bulb-container {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.bulb {
+    width: 150px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.bulb:hover {
+    transform: scale(1.1);
+}
